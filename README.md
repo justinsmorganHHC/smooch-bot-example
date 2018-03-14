@@ -44,7 +44,7 @@ To deploy your own:
 
 1. Your app should now be running on Heroku but you're not quite done yet. Take note of the URL where your heroku app is running, for example `https://foo-bar-4242.herokuapp.com`. You'll need to specify this in your heroku app `SERVICE_URL` config variable. You can do this in the Heroku control panel under *Settings* > *Config Variables*, or if you have the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed you can do it like so:
 
-        $ heroku config:set SERVICE_URL=https://foo-bar-4242.herokuapp.com -a foo-bar-4242
+        $ heroku config:set SERVICE_URL=https://devselect-bot.herokuapp.com/ -a devselect-bot
 
 1. You should be all set. Open your Heroku app and start chatting with your new bot!
 
